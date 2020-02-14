@@ -11,14 +11,12 @@ gcc -std=c99 chess.c -o chess -lm
 ./chess
 ```
 ![image](https://i.imgur.com/HltNU6k.png)
-
 ## Done So Far
 - Every piece moves as basically as it should, Pawn, Bishop, Knight, Rook, Queen, King.
 - Game board is handled with malloc, passed and handled in a struct.
 - Special rules of chess apply, double-step rule, En Passant, Pawn Promotion and Queenside and Kingside Castling all function like they should.
 - Basic collision detection for Rook and Bishop (that shouldn't be able to hit anything once they hit the side of the board or an enemy).
 - Vim style navigation - ijkl for navigation and xp for character swapping (lmao)
-
 ## Possible Extensions
 - Game save/load functionality from previous Tic-Tac-Toe project could easily be ported over.
 - Dabbled with sockets a bit. Almost thought I could get them to work, I could get chat going but converting the game to a client/server format was tougher than I imagined.
