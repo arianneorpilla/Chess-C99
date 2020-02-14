@@ -8,7 +8,7 @@ The classic family-friendly, bloody and medieval game of Chess written in C-99 f
 git clone https://github.com/ArtisanLRO/Chess-C99.git
 cd Chess-C99
 gcc -std=c99 chess.c -o chess -lm
-./main
+./chess
 ```
 ![image](https://i.imgur.com/HltNU6k.png)
 
