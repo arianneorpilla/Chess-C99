@@ -10,7 +10,7 @@ cd Chess-C99
 gcc -std=c99 chess.c -o chess -lm
 ./main
 ```
-[!image](https://i.imgur.com/HltNU6k.png)
+![image](https://i.imgur.com/HltNU6k.png)
 
 ## Done So Far
 - Every piece moves as basically as it should, Pawn, Bishop, Knight, Rook, Queen, King.
