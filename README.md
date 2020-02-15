@@ -11,6 +11,8 @@ gcc -std=c99 chess.c -o chess -lm
 ./chess
 ```
 ![image](https://i.imgur.com/HltNU6k.png)
+## To Do
+- There are instances where a piece would randomly spawn or if a piece can't be dropped - check behavior is weird, may have to look into it.
 ## Done So Far
 - Every piece moves as basically as it should, Pawn, Bishop, Knight, Rook, Queen, King.
 - Game board is handled with malloc, passed and handled in a struct.
